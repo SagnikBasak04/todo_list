@@ -1,0 +1,43 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: var(--surface);
+  padding: 1rem;
+  margin-bottom: 0.6rem;
+
+  border-radius: 10px;
+  border-left: 5px solid transparent;
+
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.task.new {
+  border-left-color: var(--blue);
+}
+
+.task.in_progress {
+  border-left-color: var(--yellow);
+}
+
+.task.finished {
+  border-left-color: var(--green);
+  opacity: 0.7;
+}
+
+.task.finished span {
+  text-decoration: line-through;
+}
+
+.actions button {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.actions button:hover {
+  background: var(--hover);
+}

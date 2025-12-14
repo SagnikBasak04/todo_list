@@ -1,0 +1,10 @@
+.task-list {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--muted);
+}

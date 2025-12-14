@@ -1,0 +1,30 @@
+.task-input {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.task-input input {
+  max-width: 320px;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.task-input input::placeholder {
+  color: var(--muted);
+}
+
+.task-input button {
+  padding: 0.75rem 1.1rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--text);
+  color: var(--bg);
+  cursor: pointer;
+}
