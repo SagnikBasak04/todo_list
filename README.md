@@ -1,16 +1,83 @@
-# React + Vite
+Here’s a **README.md** version in proper GitHub style:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+***
 
-Currently, two official plugins are available:
+# ✅ Todo List App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A beginner-friendly **Todo List application** built using **React** and **JavaScript**. This project helps you learn the basics of React components, state management, and event handling.
 
-## React Compiler
+***
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+*   ➕ **Add Tasks** – Create new tasks easily.
+*   ✅ **Mark as Completed** – Toggle tasks between completed and pending.
+*   ❌ **Delete Tasks** – Remove tasks you no longer need.
+*   💾 **Persistent State** *(optional)* – Save tasks using local storage.
+*   📱 **Responsive Design** – Works on desktop and mobile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+***
+
+## 🛠️ Tech Stack
+
+*   **React** – Component-based UI
+*   **JavaScript (ES6+)**
+*   **CSS** – Styling
+*   *(Optional)* **Local Storage** – For data persistence
+
+***
+
+## 📂 Project Structure
+
+    todo-list-app/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── TodoItem.js
+    │   │   └── TodoList.js
+    │   ├── App.js
+    │   ├── index.js
+    │   └── styles.css
+    └── package.json
+
+***
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/todo-list-app.git
+cd todo-list-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
+
+```bash
+npm start
+```
+
+The app will run on **<http://localhost:3000>**.
+
+***
+
+## 📸 Screenshots
+
+*(Add screenshots of your app here)*
+
+***
+
+## ✅ Future Improvements
+
+*   Add **edit task** functionality
+*   Implement **filtering** (completed vs pending)
+*   Add **dark mode**
+
+***
